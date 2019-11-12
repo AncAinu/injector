@@ -1,0 +1,22 @@
+{
+  "name": "SimpleInjector",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleInjector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AncAinu/SimpleInjector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AncAinu": "contact@ancainu.com"
+  },
+  "source": {
+    "git": "https://github.com/AncAinu/SimpleInjector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleInjector/Classes/**/*"
+}

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleInjector'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleInjector.'
+  s.version          = '1.0.0'
+  s.summary          = 'A lightweight dependency injection mechanism in swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SimpleInjector is a lightweight dependency injection mechanism written in Swift it carries your dependencies for you in a single object and deliver them where needed in one call.
                        DESC
 
-  s.homepage         = 'https://github.com/AncAinu/SimpleInjector'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/AncAinu/Injector'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AncAinu' => 'contact@ancainu.com' }
-  s.source           = { :git => 'https://github.com/AncAinu/SimpleInjector.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Tancrede Chazallet' => 'tancredechazallet@gmail.com' }
+  s.source           = { :git => 'https://github.com/AncAinu/Injector.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SimpleInjector/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SimpleInjector' => ['SimpleInjector/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

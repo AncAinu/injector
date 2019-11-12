@@ -1,0 +1,16 @@
+PODS:
+  - SimpleInjector (0.1.0)
+
+DEPENDENCIES:
+  - SimpleInjector (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleInjector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleInjector: 7a56cf419892c2d43b516059efb9534fee111699
+
+PODFILE CHECKSUM: 26d74d0afa2462d27127ada3b3acf2f1dc040d0d
+
+COCOAPODS: 1.8.3

@@ -17,10 +17,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		77011F53B90E53DE93736848 /* Pods-SimpleInjector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInjector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleInjector_Tests/Pods-SimpleInjector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96C1E0814E759888187EF68E /* Pods-SimpleInjector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInjector_Tests.release.xcconfig"; path = "Target Support Files/Pods-SimpleInjector_Tests/Pods-SimpleInjector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B817A217F72EDE8490AEBF93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BBB21D4CF7A9246555CDD555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B817A217F72EDE8490AEBF93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BBB21D4CF7A9246555CDD555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D91C57069F9CA845FE2C21C8 /* Pods_SimpleInjector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInjector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E810EB8AF5A49F62FEAD18EF /* SimpleInjector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleInjector.podspec; path = ../SimpleInjector.podspec; sourceTree = "<group>"; };
+		E810EB8AF5A49F62FEAD18EF /* SimpleInjector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleInjector.podspec; path = ../SimpleInjector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				77011F53B90E53DE93736848 /* Pods-SimpleInjector_Tests.debug.xcconfig */,
 				96C1E0814E759888187EF68E /* Pods-SimpleInjector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

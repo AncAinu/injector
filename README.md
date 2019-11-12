@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleInjector.svg?style=flat)](https://cocoapods.org/pods/SimpleInjector)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleInjector.svg?style=flat)](https://cocoapods.org/pods/SimpleInjector)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+iOS 8.0+
 
 ## Installation
 
@@ -20,9 +18,28 @@ it, simply add the following line to your Podfile:
 pod 'SimpleInjector'
 ```
 
+## Usage
+
+```
+protocol FooService {}
+class FooServiceImplementation: RandomService {}
+
+class Bar {
+    let fooService: FooService
+    
+    init(injector: Injector) {
+        fooService = injector.dependency()
+    }
+}
+
+let fooService = FooServiceImplementation()
+let injector = Injector([fooService])
+let bar = Bar(injector: injector)
+```
+
 ## Author
 
-AncAinu, contact@ancainu.com
+Tancrède Chazallet, tancredechazallet@gmail.com
 
 ## License
 
