@@ -27,6 +27,7 @@ SimpleInjector is a lightweight dependency injection mechanism written in Swift 
   s.source           = { :git => 'https://github.com/AncAinu/Injector.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+	s.swift_versions = '5.1.2'
 
   s.source_files = 'SimpleInjector/Classes/**/*'
 end
