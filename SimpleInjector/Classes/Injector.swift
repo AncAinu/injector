@@ -7,10 +7,10 @@
 
 import Foundation
 
-class Injector {
+public class Injector {
 	private var dependencies: [AnyObject]
 	
-	init(dependencies: [AnyObject]) {
+	public init(dependencies: [AnyObject]) {
 		#if DEBUG
 		dependencies.forEach({ dependency in
 			guard dependencies.filter({ dependency.self === $0.self }).count == 1 else {
@@ -22,14 +22,14 @@ class Injector {
 		self.dependencies = dependencies
 	}
 	
-	func dependency<T>() -> T {
+	public func dependency<T>() -> T {
 		guard let dependency = dependencies.first(where: { $0 is T }) as? T else {
 			fatalError("Couldn't retrieve dependency of type \(T.self) in:\n\(dependencies.debugDescription)")
 		}
 		return dependency
 	}
     
-    func add(dependency: AnyObject) {
+    public func add(dependency: AnyObject) {
         dependencies.forEach({ depd in
             if depd === dependency {
                 return
