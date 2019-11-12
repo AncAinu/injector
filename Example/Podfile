@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimpleInjector_Tests' do
+  pod 'SimpleInjector', :path => '../'
+  
+  
+end
