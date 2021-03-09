@@ -29,5 +29,5 @@ SimpleInjector is a lightweight dependency injection mechanism written in Swift 
   s.ios.deployment_target = '8.0'
 	s.swift_versions = '5.1.2'
 
-  s.source_files = 'SimpleInjector/Classes/**/*'
+  s.source_files = 'Sources/injector/*'
 end

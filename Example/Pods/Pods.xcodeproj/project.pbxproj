@@ -40,10 +40,11 @@
 		59DF83A556D29C9B935D783B27A1938B /* Pods_SimpleInjector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInjector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF39284A3116FD5F9023197A2668562 /* Pods-SimpleInjector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleInjector_Tests-umbrella.h"; sourceTree = "<group>"; };
 		694FC400F466AB5E08DC1BB66F2464F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		964362940AEED8E7C17A10645796393B /* Injector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Injector.swift; path = SimpleInjector/Classes/Injector.swift; sourceTree = "<group>"; };
+		964362940AEED8E7C17A10645796393B /* Injector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Injector.swift; path = Sources/injector/Injector.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1677E447E147347062B288CBBE2D245 /* SimpleInjector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleInjector-dummy.m"; sourceTree = "<group>"; };
 		A5B88E5D27C94EF211F8D0F749E8EBB5 /* Pods-SimpleInjector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleInjector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A94F8D8F25F7E6F600DB7752 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 		AED1F94E4BD224A80D51CBD3293E9D77 /* SimpleInjector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleInjector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B29F231ADF35944DC9273ECBF4FB57FD /* SimpleInjector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleInjector-umbrella.h"; sourceTree = "<group>"; };
 		B30DD120CAF57A4E7528FA2DD870412A /* Pods-SimpleInjector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleInjector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				A94F8D8F25F7E6F600DB7752 /* Package.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4D6A0DAD387ECF318C63853684B79BFC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
