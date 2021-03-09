@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleInjector'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A lightweight dependency injection mechanism in swift.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ SimpleInjector is a lightweight dependency injection mechanism written in Swift 
   s.source           = { :git => 'https://github.com/AncAinu/Injector.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-	s.swift_versions = '5.1.2'
+	s.swift_versions = '5.4'
 
   s.source_files = 'Sources/injector/*'
 end
